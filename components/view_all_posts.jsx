@@ -24,6 +24,7 @@ function ViewAllPosts() {
   return (
     <>
       <h1>Welcome {user}</h1>
+        <Link to={`/posts/create`}>Create post</Link>
       <div>
         {posts.map((post) => {
           return (

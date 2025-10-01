@@ -21,7 +21,7 @@ const routes = createBrowserRouter([
     element: <ViewPost />
   },
   {
-    path: "/create",
+    path: "/posts/create",
     element: <PostCreate />,
   },
 ]);
