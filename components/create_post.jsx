@@ -11,7 +11,7 @@ function PostCreate() {
     console.log(token);
     
     const response = await axios.post(
-      `http://localhost:8000/users/posts/post/create`,
+      `http://localhost:8000/users/posts`,
       {
         title,
         content

@@ -11,7 +11,7 @@ function Login() {
 
   useEffect(() => {
     if(result) {
-      navigate("/create")
+      navigate("/posts")
     }
   }, [result, navigate])
 
